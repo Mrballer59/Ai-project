@@ -19,7 +19,7 @@ const generateImage = async (req, res) => {
   } catch (error) {
     if (error.response) {
       console.log(error.response.status);
-      console.log(error.response.date);
+      console.log(error.response.data);
     } else {
       console.log(error.message);
     }
